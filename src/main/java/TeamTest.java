@@ -11,6 +11,8 @@ public class TeamTest {
 //        Team liverpool=new Team("Liverpool");
         Team<SuccerPlayer> liverpool=new Team<>("Liverpool");
 
+//        Team<String> brokenTeam=new Team<>("this wont work");
+
 //        liverpool.addPlayer(joe);
 //        liverpool.addPlayer(pat);
         liverpool.addPlayer(beckham);
